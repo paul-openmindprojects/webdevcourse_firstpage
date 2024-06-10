@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color:  lightpink;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: palevioletred;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgray;
+}
+
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkcyan;
+}
+
+.p1-style {
+
+
+
+}
