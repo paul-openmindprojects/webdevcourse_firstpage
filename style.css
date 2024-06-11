@@ -1,46 +1,89 @@
+body,
 html {
+  margin: 0;
+  padding: 0;
   height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #00b0f0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.lesson-container {
+  height: 100vh;
+}
+
+
+.sidebar {
+  width: 200px;
+  background-color: #FF69B4;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  /* Full height */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.h1-center {
+  color: white;
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.sidebar-text {
+  color: white;
+  font-size: 20px;
+  
+}
+
+.table-container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;  
+}  
+
+table {
+  border-collapse:  collapse;
+  
+}
+
+th, td {
+  border: 4px solid #FF69B4; 
+  text-align: center; 
+  width: 200px;
+  height: 80px;
+  color: white;
+}
+
+#iframe-container {
+  flex-grow: 1;
+}
+
+#iframe-container iframe {
   width: 100%;
+  height: 100%;
+  border: none;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
-  background-color:  lightpink;
-}
 
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: red;
-}
-
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: purple;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: green;
-}
-
-h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: palevioletred;
-}
-
-h5 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: darkgray;
-}
-
-h6 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: darkcyan;
-}
-
-.p1-style {
-
-
-
-}
